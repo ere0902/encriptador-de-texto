@@ -1,0 +1,181 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    margin-bottom: 0;
+    box-sizing: border-box;
+    font-family: ubuntu;
+}
+
+header{
+    background-color: rgba(217, 248, 250, 0.692);
+    font-size: 35px;
+    color:rgb(63, 14, 128);
+    font-family: monospace;
+    font-weight: 100;
+}
+
+h1 {
+    display: inline-block;
+    /* background-color: rgb(54, 54, 111);  */
+    width: 65%;
+    padding: 50px 20px 50px 120px;
+    margin: 0;
+    font-weight: 100;
+}
+
+img{
+    width: 10%;
+    display: inline-block;
+    position: right;
+    border: 1px darkgray;
+}
+
+body{
+    background-color: #ffead0;
+    margin: 0%;
+
+}
+
+main{
+    width: 100%;
+    height: 403px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 3rem 4rem 0rem 4rem;
+    font-size: 30px;
+}
+
+.insection{
+    width: 60%;
+    background-color:rgb(76, 57, 156);
+    color: #ffffff;
+    border-radius: 40px;
+
+}
+
+.outsection{
+    width: 35%;
+    background-color:#ffffff;
+    color:rgb(185, 226, 245);
+    border-radius: 40px;
+}
+
+
+.textarea-container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 3px;
+
+}
+
+.textarea-container>textarea {
+
+    background-color: transparent;
+    font-size: 1.2rem;
+    color: rgb(15, 50, 146);
+    padding: 4rem;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    border: solid 1px var(--skyblue);
+    transition: all 0.6s linear;
+    box-sizing: border-box;
+
+}
+
+.textarea-container>textarea::placeholder {
+
+    color: var(--skyblue);
+    opacity: 0.5;
+}
+
+.textarea-container>textarea:focus {
+
+    outline: none;
+    border: solid 3px var(--skyblue);
+    box-shadow: 0px 0px 10px 2px var(--turquoise) inset;
+
+}
+
+.textarea-container>button {
+
+    position:absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    text-align: center;
+
+}
+
+button {
+
+    text-align: center;
+    color: rgb(243, 139, 59);
+    font-size: 20px;
+    padding: 10px 20px; 
+    cursor: pointer; 
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255); 
+    
+    border-style: none;
+    width: 180px;
+    border: 5px solid #ffffff00;
+    transition: 1s all;
+
+  }
+
+  #btn-encrypt{
+    margin: 0px 145px 5px 0px;
+  }
+
+  #btn-encrypt:hover{background-color: rgb(72, 211, 190);color: #ffffff;}
+  
+  
+  #btn-decrypt{
+    margin: 25px 145px 5px 0px;
+  }
+  #btn-decrypt:hover{background-color: rgb(51, 97, 183);color: #ffffff;}
+ 
+  #btn-clean{
+    margin: 10px 235px 5px 0px;
+  }
+  #btn-clean:hover{background-color: rgba(28, 0, 151, 0.959);color: #ffffff;}
+ 
+  #btn-copy{
+    margin: 25px 25px 5px 0px;
+ }  
+  
+
+  #btn-copy:hover{background-color: rgba(227, 177, 231, 0.993); color: rgb(243, 52, 218)}
+  
+  
+
+
+  #btn-contener{
+    
+    padding: 19px 20px 5px 20px;
+
+}
+
+footer{
+    text-align: left;
+    padding:5px 0px 0px 0px;
+    border: 0;
+    margin: 0;
+    background: rgba(217, 248, 250, 0.692);
+    height: 80px;
+}
+ 
+.f-final{
+
+    width: 100px;
+    align-self: baseline;
+    padding-top: 0px;
+   
+}
+

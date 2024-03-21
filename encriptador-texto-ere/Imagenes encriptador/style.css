@@ -1,0 +1,129 @@
+*{
+    background:#E5E5E5;
+    font-family:"Inter";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.titulo {
+    padding-top: 10px;
+    width: 65%;
+    font-size: 300%;
+    margin-left: 155px;
+    color: #0A3871;
+    margin-top: 90px;
+    
+}
+
+.logo{
+   padding-top: 10px;
+   margin-left: 10px;
+   width: 10%;
+}
+
+main{
+    width: 80%;
+    margin:auto 40px auto auto;
+    display: flex;
+    margin-bottom: 80%;
+    margin-left: 10%;
+    min-height: calc(100vh - 91px - 72px);
+    height: 70px;
+}
+
+.text-area{
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+    box-shadow: #0A3871;
+}
+
+::placeholder { color: #0A3871;}
+    .text-area :focus{
+        outline: none;
+    }
+
+
+.mensaje{
+    background: white;
+    background-image: url("imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 94px;
+    margin-top: 100px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 50px; 
+}
+
+.información{
+    color: #0A3871;
+    font-size: 14px;
+}
+
+.encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 314px;
+}
+
+.desencriptar{
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 14px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 10px;
+    width: 314px;
+}
+
+.copiar{
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 14px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 10px;
+    margin-top: 211%;
+    position: none;
+    width: 314px;
+
+}
+
+.left{
+    height: 650px;
+}
+
+.right{
+    height: calc(100% + 48px);
+}
+
+.pie-de-pagina{
+    background: none;
+    border: 1px solid none;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-bottom: 500px;
+    width: 100%;
+    text-align: center;
+}
